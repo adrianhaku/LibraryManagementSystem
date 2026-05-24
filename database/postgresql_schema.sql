@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict vglq5aAdoOZqUq5Ds4camZ2IHaNJPqZB25BQyaFBoxRRT7aG9k004AHaceIsfrT
+
 
 -- Dumped from database version 18.3
 -- Dumped by pg_dump version 18.3
@@ -1048,5 +1048,5 @@ ALTER TABLE ONLY public.loans
 -- PostgreSQL database dump complete
 --
 
-\unrestrict vglq5aAdoOZqUq5Ds4camZ2IHaNJPqZB25BQyaFBoxRRT7aG9k004AHaceIsfrT
+
 

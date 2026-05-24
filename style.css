@@ -1,0 +1,225 @@
+/* Modern Library Management System - CSS Styles */
+
+.root {
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+    -fx-background-color: #f5f5f5;
+}
+
+/* Tab Pane Styling */
+.tab-pane {
+    -fx-tab-min-width: 120px;
+    -fx-tab-max-height: 40px;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 10 0 0 0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #e0e0e0;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #2196F3;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: #333333;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2196F3;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2196F3;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-view .table-row-cell {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: white;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #E3F2FD;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #90CAF9;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.button:pressed {
+    -fx-background-color: #0D47A1;
+}
+
+.button-danger {
+    -fx-background-color: #f44336;
+}
+
+.button-danger:hover {
+    -fx-background-color: #d32f2f;
+}
+
+.button-success {
+    -fx-background-color: #4CAF50;
+}
+
+.button-success:hover {
+    -fx-background-color: #388E3C;
+}
+
+.button-warning {
+    -fx-background-color: #FF9800;
+}
+
+.button-warning:hover {
+    -fx-background-color: #F57C00;
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 12 8 12;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2;
+}
+
+/* ComboBox Styling */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.combo-box:focused {
+    -fx-border-color: #2196F3;
+}
+
+/* Label Styling */
+.label-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1976D2;
+}
+
+.label-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666666;
+}
+
+.label-info {
+    -fx-font-size: 12px;
+    -fx-text-fill: #999999;
+}
+
+/* Dialog Styling */
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2196F3;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Search Box Styling */
+.search-box {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+
+/* Card Styling */
+.card {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.card:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 15, 0, 0, 4);
+}
+
+/* Progress Bar */
+.progress-bar {
+    -fx-accent: #4CAF50;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 5;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
